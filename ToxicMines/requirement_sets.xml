@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- PLOT_HAS_MINE_REQUIREMENTS is already defined by the base game. -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OR_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OR_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_OR_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MINE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameData>

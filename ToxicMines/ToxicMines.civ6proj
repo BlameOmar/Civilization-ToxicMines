@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Toxic Mines</Name>
+    <Guid>39974f86-4555-4c72-9f33-e10e13e8064c</Guid>
+    <ProjectGuid>81438fac-e0b9-4565-b087-bb352d0c48ac</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>The technological advancements that improve production on mines have an environmental cost.</Teaser>
+    <Description>Mines will degrade [ICON_Food] Food yields as technology makes them more productive. After researching Appenticeship, -1 [ICON_Food] Food to mines. After researching Industrialization, an additional -1 [ICON_Food] Food to mines and tiles adjacent to mines.</Description>
+    <Authors>BlameOmar</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>ToxicMines</AssemblyName>
+    <RootNamespace>ToxicMines</RootNamespace>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>modifiers.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <Homepage>https://github.com/BlameOmar/Civilization-ToxicMines</Homepage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="requirement_sets.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="modifiers.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

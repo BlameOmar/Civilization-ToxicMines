@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MINE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MINE</RequirementId>
+			<Name>ImprovementType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
