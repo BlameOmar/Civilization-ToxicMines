@@ -2,38 +2,38 @@
 <GameData>
 	<RequirementSets>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
 		</Row>
 	</RequirementSets>
 
 	<RequirementSetRequirements>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_OIL_WELL</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_OIL_WELL</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OIL_WELL</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>ToxicMines_PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TOXIC_MINES__PLOT_HAS_OR_ADJACENT_TO_EXPLOITED_OIL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OFFSHORE_OIL_RIG</RequirementId>
 		</Row>
 	</RequirementSetRequirements>

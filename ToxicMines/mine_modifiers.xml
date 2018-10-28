@@ -3,22 +3,22 @@
 	<TechnologyModifiers>
 		<Row>
 			<TechnologyType>TECH_APPRENTICESHIP</TechnologyType>
-			<ModifierId>ToxicMines_PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 		</Row>
 		<Row>
 			<TechnologyType>TECH_INDUSTRIALIZATION</TechnologyType>
-			<ModifierId>ToxicMines_PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 		</Row>
 	</TechnologyModifiers>
 
 	<Modifiers>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_OR_ADJACENT_TO_MINE_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -26,25 +26,25 @@
 
 	<ModifierArguments>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<Name>Amount</Name>
 			<Type>ARGTYPE_IDENTITY</Type>
 			<Value>-1</Value>
 		</Row>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<Name>YieldType</Name>
 			<Type>ARGTYPE_IDENTITY</Type>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<Name>Amount</Name>
 			<Type>ARGTYPE_IDENTITY</Type>
 			<Value>-1</Value>
 		</Row>
 		<Row>
-			<ModifierId>ToxicMines_PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
+			<ModifierId>TOXIC_MINES__PLOTS_WITH_OR_ADJACENT_TO_MINES_HAVE_REDUCED_FOOD_YIELDS</ModifierId>
 			<Name>YieldType</Name>
 			<Type>ARGTYPE_IDENTITY</Type>
 			<Value>YIELD_FOOD</Value>
