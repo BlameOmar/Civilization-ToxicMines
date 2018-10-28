@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Requirements>
+		<Row RequirementId="REQUIRES_NO_SALT_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
+		<Row RequirementId="REQUIRES_NO_NITER_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_NO_SALT_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_SALT"/>
+		<Row RequirementId="REQUIRES_NO_NITER_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_NITER"/>
+	</RequirementArguments>
+</GameData>
