@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
 	<Requirements>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MINE</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
-			<ProgressWeight>1</ProgressWeight>
-		</Row>
+		<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
+		<Row RequirementId="REQUIRES_PLOT_NO_HAS_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
+		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_MINE" RequirementType="REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES" ProgressWeight="1"/>
 	</Requirements>
 
 	<RequirementArguments>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_MINE</RequirementId>
-			<Name>ImprovementType</Name>
-			<Type>ARGTYPE_IDENTITY</Type>
-			<Value>IMPROVEMENT_MINE</Value>
-		</Row>
+		<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
+		<Row RequirementId="REQUIRES_PLOT_NO_HAS_MINE" Name="ImprovementType" Type="ARGTYPE_IDENTITY" Value="IMPROVEMENT_MINE"/>
+		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_MINE" Name="ImprovementType" Type="ARGTYPE_IDENTITY" Value="IMPROVEMENT_MINE"/>
 	</RequirementArguments>
 </GameData>
