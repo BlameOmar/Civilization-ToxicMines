@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_NO_HAS_CULTURAL_HERITAGE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>1</Inverse>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_NO_HAS_CULTURAL_HERITAGE</RequirementId>
+			<Name>CivicType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>CIVIC_CULTURAL_HERITAGE</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

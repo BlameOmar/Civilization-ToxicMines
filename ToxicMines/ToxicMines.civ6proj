@@ -17,13 +17,16 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>ToxicMines</AssemblyName>
     <RootNamespace>ToxicMines</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>mine_requirements.xml</File><File>oil_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>mine_requirement_sets.xml</File><File>oil_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>mine_modifiers.xml</File><File>oil_modifiers.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File priority="100">civic_requirements.xml</File><File priority="100">mine_requirements.xml</File><File priority="100">oil_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File priority="200">mine_requirement_sets.xml</File><File priority="200">oil_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File priority="300">mine_modifiers.xml</File><File priority="300">oil_modifiers.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <Homepage>https://github.com/BlameOmar/Civilization-ToxicMines</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="civic_requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="mine_modifiers.xml">
       <SubType>Content</SubType>
     </Content>
