@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OIL_WELL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OIL_WELL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OFFSHORE_OIL_RIG</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+			<ProgressWeight>1</ProgressWeight>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OIL_WELL</RequirementId>
+			<Name>ImprovementType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>IMPROVEMENT_OIL_WELL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OIL_WELL</RequirementId>
+			<Name>ImprovementType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>IMPROVEMENT_OIL_WELL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_OFFSHORE_OIL_RIG</RequirementId>
+			<Name>ImprovementType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>IMPROVEMENT_OFFSHORE_OIL_RIG</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_OFFSHORE_OIL_RIG</RequirementId>
+			<Name>ImprovementType</Name>
+			<Type>ARGTYPE_IDENTITY</Type>
+			<Value>IMPROVEMENT_OFFSHORE_OIL_RIG</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
