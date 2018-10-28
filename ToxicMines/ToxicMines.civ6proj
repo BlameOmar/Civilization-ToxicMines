@@ -6,8 +6,8 @@
     <Guid>39974f86-4555-4c72-9f33-e10e13e8064c</Guid>
     <ProjectGuid>81438fac-e0b9-4565-b087-bb352d0c48ac</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>The technological advancements that improve production on mines have an environmental cost.</Teaser>
-    <Description>Mines will degrade [ICON_Food] Food yields as technology makes them more productive. After researching Appenticeship, -1 [ICON_Food] Food to mines. After researching Industrialization, an additional -1 [ICON_Food] Food to mines and tiles adjacent to mines. -2 [ICON_Food] to oil wells and oil rigs, and -1 [ICON_Food] Food to tiles adjacent to them.</Description>
+    <Teaser>Technological advancements in production have an environmental cost.</Teaser>
+    <Description>After researching Apprenticeship, -1 [ICON_Food] Food to mines. After researching Industrialization, an additional -1 [ICON_Food] Food to mines and tiles adjacent to mines. -2 [ICON_Food] Food to oil wells and oil rigs, and -1 [ICON_Food] Food to tiles adjacent to them. Upon researching Cultural Heritage, the pollution penalty to [ICON_Food] Food on all of these tiles will be reduced by 1. Niter and salt mines are not affected by pollution.</Description>
     <Authors>BlameOmar</Authors>
     <SpecialThanks>
     </SpecialThanks>
