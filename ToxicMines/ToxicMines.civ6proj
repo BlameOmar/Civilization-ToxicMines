@@ -17,7 +17,7 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>ToxicMines</AssemblyName>
     <RootNamespace>ToxicMines</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>civic_requirements.xml</File><File>mine_requirements.xml</File><File>oil_requirements.xml</File><File>resource_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>mine_requirement_sets.xml</File><File>oil_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>mine_modifiers.xml</File><File>oil_modifiers.xml</File><File>fuel_modifiers.xml</File></UpdateDatabase><UpdateDatabase id="UpdateModifiers"><Properties><LoadOrder>10100</LoadOrder></Properties><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateYields"><Properties><LoadOrder>10200</LoadOrder></Properties><File>fuel_yields.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>civic_requirements.xml</File><File>mine_requirements.xml</File><File>oil_requirements.xml</File><File>resource_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>mine_requirement_sets.xml</File><File>oil_requirement_sets.xml</File><File>quarry_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>mine_modifiers.xml</File><File>oil_modifiers.xml</File><File>quarry_modifiers.xml</File><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateModifiers"><Properties><LoadOrder>10100</LoadOrder></Properties><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateYields"><Properties><LoadOrder>10200</LoadOrder></Properties><File>fuel_yields.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <Homepage>https://github.com/BlameOmar/Civilization-ToxicMines</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -52,6 +52,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="oil_requirement_sets.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="quarry_modifiers.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="quarry_requirement_sets.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="resource_requirements.xml">
