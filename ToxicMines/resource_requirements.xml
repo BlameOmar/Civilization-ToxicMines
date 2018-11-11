@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Requirements>
+		<Row RequirementId="REQUIRES_IRON_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1"/>
+		<Row RequirementId="REQUIRES_ALUMINUM_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1"/>
+		<Row RequirementId="REQUIRES_COAL_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1"/>
+		<Row RequirementId="REQUIRES_URANIUM_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1"/>
+
 		<Row RequirementId="REQUIRES_NO_SALT_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
 		<Row RequirementId="REQUIRES_NO_NITER_IN_PLOT" RequirementType="REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
 	</Requirements>
 
 	<RequirementArguments>
+		<Row RequirementId="REQUIRES_IRON_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_IRON"/>
+		<Row RequirementId="REQUIRES_ALUMINUM_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_ALUMINUM"/>
+		<Row RequirementId="REQUIRES_COAL_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_COAL"/>
+		<Row RequirementId="REQUIRES_URANIUM_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_URANIUM"/>
+
 		<Row RequirementId="REQUIRES_NO_SALT_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_SALT"/>
 		<Row RequirementId="REQUIRES_NO_NITER_IN_PLOT" Name="ResourceType" Type="ARGTYPE_IDENTITY" Value="RESOURCE_NITER"/>
 	</RequirementArguments>
