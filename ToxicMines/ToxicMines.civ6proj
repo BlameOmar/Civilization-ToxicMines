@@ -17,8 +17,11 @@
     <SupportsHotSeat>true</SupportsHotSeat>
     <AssemblyName>ToxicMines</AssemblyName>
     <RootNamespace>ToxicMines</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>civic_requirements.xml</File><File>mine_requirements.xml</File><File>oil_requirements.xml</File><File>resource_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>mine_requirement_sets.xml</File><File>oil_requirement_sets.xml</File><File>quarry_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>mine_modifiers.xml</File><File>oil_modifiers.xml</File><File>quarry_modifiers.xml</File><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateModifiers"><Properties><LoadOrder>10100</LoadOrder></Properties><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateYields"><Properties><LoadOrder>10200</LoadOrder></Properties><File>fuel_yields.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="AddRequirements"><File>civic_requirements.xml</File><File>mine_requirements.xml</File><File>mine_requirements_no_xp1.xml</File><File>oil_requirements.xml</File><File>resource_requirements.xml</File></UpdateDatabase><UpdateDatabase id="AddRequirementSets"><File>mine_requirement_sets.xml</File><File>oil_requirement_sets.xml</File><File>quarry_requirement_sets.xml</File></UpdateDatabase><UpdateDatabase id="AddModifiers"><File>mine_modifiers.xml</File><File>oil_modifiers.xml</File><File>quarry_modifiers.xml</File><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateModifiers"><Properties><LoadOrder>10100</LoadOrder></Properties><File>fuel_modifiers.sql</File></UpdateDatabase><UpdateDatabase id="UpdateYields"><Properties><LoadOrder>10200</LoadOrder></Properties><File>fuel_yields.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
     <Homepage>https://github.com/BlameOmar/Civilization-ToxicMines</Homepage>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -40,6 +43,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="mine_requirements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="mine_requirements_no_xp1.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="mine_requirement_sets.xml">

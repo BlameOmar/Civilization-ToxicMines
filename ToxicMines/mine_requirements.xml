@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Requirements>
-		<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
+		<!-- REQUIRES_PLOT_HAS_MINE is defined in Expansion: Rise and Fall (XP1). -->
 		<Row RequirementId="REQUIRES_PLOT_NO_HAS_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" ProgressWeight="1" Inverse="1"/>
 		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_MINE" RequirementType="REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES" ProgressWeight="1"/>
 	</Requirements>
 
 	<RequirementArguments>
-		<!-- REQUIRES_PLOT_HAS_MINE is already defined by the base game. -->
+		<!-- REQUIRES_PLOT_HAS_MINE is defined in Expansion: Rise and Fall (XP1). -->
 		<Row RequirementId="REQUIRES_PLOT_NO_HAS_MINE" Name="ImprovementType" Type="ARGTYPE_IDENTITY" Value="IMPROVEMENT_MINE"/>
 		<Row RequirementId="REQUIRES_PLOT_ADJACENT_TO_MINE" Name="ImprovementType" Type="ARGTYPE_IDENTITY" Value="IMPROVEMENT_MINE"/>
 	</RequirementArguments>

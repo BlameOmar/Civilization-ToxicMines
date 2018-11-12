@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Requirements>
+		<Row RequirementId="REQUIRES_PLOT_HAS_MINE" RequirementType="REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES" ProgressWeight="1"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_PLOT_HAS_MINE" Name="ImprovementType" Type="ARGTYPE_IDENTITY" Value="IMPROVEMENT_MINE"/>
+	</RequirementArguments>
+</GameData>
