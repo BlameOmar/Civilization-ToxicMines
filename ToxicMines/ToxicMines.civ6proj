@@ -5,9 +5,9 @@
     <Name>Toxic Mines</Name>
     <Guid>39974f86-4555-4c72-9f33-e10e13e8064c</Guid>
     <ProjectGuid>81438fac-e0b9-4565-b087-bb352d0c48ac</ProjectGuid>
-    <ModVersion>2</ModVersion>
-    <Teaser>Technological advancements in production have an environmental cost.</Teaser>
-    <Description>After researching Apprenticeship, -1 [ICON_Food] Food to mines. After researching Industrialization, an additional -1 [ICON_Food] Food to mines and tiles adjacent to mines. -2 [ICON_Food] Food to oil wells and oil rigs, and -1 [ICON_Food] Food to tiles adjacent to them. Upon researching Cultural Heritage, the pollution penalty to [ICON_Food] Food on all of these tiles will be reduced by 1. Niter and salt mines are not affected by pollution.</Description>
+    <ModVersion>3</ModVersion>
+    <Teaser>Technological advancements often have an environmental cost.</Teaser>
+    <Description>Pollution reduces [ICON_Food] Food yields. -1 [ICON_Food] to mines after researching Apprenticeship. An additional -1 [ICON_Food] to mines and tiles adjacent to mines after reseraching Industrialization. -1 [ICON_Food] to quarries after researching Banking. Additional -1 [ICON_Food] to quarries after researching Rocketry. -2 [ICON_Food] to oil wells and offshore oil rigs, and -1 [ICON_Food] to tiles adjacent to them. Upon researching Cultural Heritage, the pollution penalty to [ICON_Food] Food on all of these tiles will be reduced by 1. Niter and salt mines are not affected by pollution. Unimproved coal, oil, and uranium yield [ICON_Science] Science instead of [ICON_Production] Production. Iron, aluminum, coal, and uranium mines; and oil wells and offshore oil rigs provide bonus [ICON_Production] Production equal to their [ICON_Science] Science yield.</Description>
     <Authors>BlameOmar</Authors>
     <SpecialThanks>
     </SpecialThanks>
